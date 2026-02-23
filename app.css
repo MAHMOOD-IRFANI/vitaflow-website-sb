@@ -249,10 +249,10 @@ NAVIGATION BAR
 }
 
 @media screen and (min-width: 1024px) {
-  .nav-div {
+  /* .nav-div {
     left: 50%;
     transform: translateX(-50%);
-  }
+  } */
 }
 /* end of the navigation bar  */
 
