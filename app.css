@@ -55,7 +55,6 @@ NAVIGATION BAR
   z-index: 1000;
   max-width: 1350px;
   margin: 0 auto;
-  /* justify-self: center; */
 }
 .logo {
   display: flex;
