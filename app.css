@@ -52,8 +52,6 @@ NAVIGATION BAR
   padding: 20px 20px 15px 20px;
   position: fixed;
   width: 100%;
-  left: 50%;
-  transform: translateX(-50%);
   z-index: 1000;
   max-width: 1350px;
   margin: 0 auto;
@@ -250,6 +248,12 @@ NAVIGATION BAR
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .nav-div {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
 /* end of the navigation bar  */
 
 /* @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
