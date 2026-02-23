@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>David Harris | Vitaflow healthcare</title>
+    <link rel="stylesheet" href="app.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="icon" type="image/x-icon" href="./images/faveIcon2.png" />
+  </head>
+  <body>
+    <div class="nav-div" id="about-nav">
+      <div class="logo">
+        <span class="logo-span">
+          <a href="./index.html"> <img src="images/logo.png" alt="" /></a>
+        </span>
+        <span class="logo-text">Vital+Flow</span>
+      </div>
+      <!-- end of logo div -->
+
+      <nav class="nav" id="nav">
+        <a href="./about.html">About</a>
+        <a href="./services.html">Services</a>
+        <a href="./doctor.html">Doctors</a>
+        <a href="./blog.html">Blog</a>
+      </nav>
+      <a href="#contact" id="bookCall" class="bookACall">
+        <span class="btn-text">
+          <span>Book a call</span>
+          <span>Book a call</span>
+        </span>
+      </a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+    <!-- end of nav bar -->
+    <br /><br />
+
+    <section class="doctor-profile-section">
+      <div class="doctor-profile-wrapper">
+        <div class="doctor-profile-image reveal">
+          <img src="images/team-img3.png" alt="Doctor" />
+        </div>
+
+        <div class="doctor-profile-content reveal">
+          <h2 class="doctor-name">David Harris</h2>
+          <p class="doctor-specialty">Pediatrician</p>
+
+          <div class="doctor-divider"></div>
+
+          <div class="doctor-details">
+            <div class="doctor-row">
+              <span>Experience</span>
+              <span>2 years</span>
+            </div>
+
+            <div class="doctor-row">
+              <span>Qualifications</span>
+              <span> BDS, MDS</span>
+            </div>
+
+            <div class="doctor-row">
+              <span>Working hours</span>
+              <span>7 Hours</span>
+            </div>
+
+            <div class="doctor-row">
+              <span>Location</span>
+              <span>12 High Street, London, UK NW1 5HD</span>
+            </div>
+          </div>
+
+          <div class="doctor-divider"></div>
+
+          <div class="doctor-social reveal">
+            <a href="#"><img src="images/linkedin.svg" alt="" /></a>
+            <a href="#"><img src="images/twittersvg.svg" alt="" /></a>
+            <a href="#"><img src="images/facebook.svg" alt="" /></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of doctor-profile-section -->
+
+    <section class="doctor-bio-section">
+      <div class="doctor-bio-wrapper">
+        <div class="doctor-bio-block reveal">
+          <h3 class="doctor-bio-title">About:</h3>
+          <p>
+            Dr. David Harris is a compassionate and experienced pediatrician
+            with over 12 years of dedicated service in caring for children from
+            infancy through adolescence. He obtained his medical degree from the
+            University of Chicago Pritzker School of Medicine and completed his
+            residency at Boston Children’s Hospital, where he developed a strong
+            foundation in pediatric care.
+          </p>
+          <p>
+            Dr. Harris is known for his gentle approach and ability to connect
+            with young patients and their families, ensuring that each child
+            receives personalized care tailored to their unique needs. His
+            commitment to fostering a positive healthcare experience for
+            children has made him a trusted and beloved figure among his
+            patients.
+          </p>
+        </div>
+
+        <div class="doctor-bio-block reveal">
+          <h3 class="doctor-bio-title">Experience:</h3>
+          <p>
+            Dr. Harris has worked in various pediatric settings, ranging from
+            private practices to large healthcare facilities. He has served as
+            the Lead Pediatrician at Sunshine Children’s Clinic, where he
+            managed a diverse patient population and implemented innovative
+            health programs for children with special needs.
+          </p>
+          <p>
+            Additionally, Dr. Harris has been a pediatric consultant at St.
+            Mary’s Hospital, providing expert care for children with complex
+            medical conditions. His extensive experience in both general
+            pediatrics and specialized care allows him to offer comprehensive
+            services that address the full spectrum of pediatric health.
+          </p>
+        </div>
+
+        <div class="doctor-bio-block reveal">
+          <h3 class="doctor-bio-title">Specialities & Info:</h3>
+          <p>
+            His expertise in childhood nutrition ensures that his young patients
+            receive dietary guidance that supports their growth and development,
+            helping to establish healthy habits that last a lifetime. Dr. Harris
+            is also well-versed in managing chronic conditions such as asthma
+            and diabetes in children, providing personalized treatment plans
+            that consider the child’s physical and emotional well-being.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- end doctor-bio-section -->
+    <section class="contact" id="contact">
+      <div class="contact-container">
+        <div class="contact-text">
+          <div class="contact-title">
+            <div class="contact-circle"></div>
+            <!-- end of contact-circle -->
+            <span>Contact</span>
+          </div>
+          <!-- end of contact-title -->
+          <h1>Contact us for more information & get started</h1>
+          <img src="images/star.png" alt="" />
+          <img src="images/star.png" alt="" />
+          <img src="images/star.png" alt="" />
+          <img src="images/star.png" alt="" />
+          <img src="images/star.png" alt="" />
+        </div>
+        <!-- end of contact-text -->
+
+        <div class="contact-form">
+          <form action="#">
+            <div class="test-form">
+              <input
+                type="text"
+                required
+                id="fullname"
+                name="fullname"
+                placeholder="Full Name"
+              />
+              <input
+                type="email"
+                required
+                id="email"
+                name="email"
+                placeholder="Email Address"
+              />
+              <input
+                type="text"
+                id="phone"
+                name="phone"
+                placeholder="Phone Number"
+              />
+              <input type="date" id="date" name="date" />
+            </div>
+            <textarea
+              name="message"
+              id="text-area"
+              placeholder="Message or additional details"
+            ></textarea>
+            <input type="submit" value="Submit" id="contact-submit" />
+          </form>
+        </div>
+        <!-- end of contact-form -->
+      </div>
+      <!-- end of contact-container -->
+    </section>
+    <!-- end of contact section -->
+    <footer class="footer">
+      <div id="footer-container">
+        <div class="footer-wrapper">
+          <!-- LEFT SIDE -->
+          <div class="footer-left">
+            <div class="footer-logo">
+              <div class="logo-icon"><img src="images/logo.png" alt="" /></div>
+              <span>Vital+Flow</span>
+            </div>
+
+            <p class="footer-desc">
+              Creative healthcare template to launch your site quick and easily
+            </p>
+
+            <a href="#contact" class="btn-primary" id="footer-bookcall">
+              <span class="footer-btn-text">
+                <span>Book a call</span>
+                <span>Book a call</span>
+              </span>
+            </a>
+          </div>
+
+          <!-- RIGHT SIDE -->
+          <div class="footer-right">
+            <!-- Subscribe -->
+            <div class="footer-subscribe">
+              <h3>Stay up to date</h3>
+              <div class="subscribe-box">
+                <input type="email" placeholder="name@email.com" />
+                <button>Subscribe</button>
+              </div>
+              <p class="privacy-text">
+                by subscribing you will agree to privacy and policy
+              </p>
+            </div>
+
+            <!-- Links -->
+            <div class="footer-links">
+              <div class="footer-col">
+                <h4>Static pages</h4>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="#contact">Contact</a>
+                <a href="#">404</a>
+              </div>
+
+              <div class="footer-col">
+                <h4>CMS Pages</h4>
+                <a href="services.html">Services</a>
+                <a href="doctor.html">Doctors</a>
+                <a href="career1.html">Careers</a>
+                <a href="blog.html">Blogs</a>
+              </div>
+
+              <div class="footer-col">
+                <h4>Detail pages</h4>
+                <a href="service-cms.html">Service (CMS)</a>
+                <a href="Jonathan-reed.html">Doctor (CMS)</a>
+                <a href="career2.html">Career (CMS)</a>
+                <a href="blogs-cms.html">Blogs (CMS)</a>
+              </div>
+
+              <div class="footer-col">
+                <h4>Follow us</h4>
+                <a href="#">LinkedIn</a>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">YouTube</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- end of footer -->
+
+    <a href="" class="fixed-btn-seeAll">
+      <span class="footer-btn-text">
+        <span>See All Templates</span>
+        <span>See All Templates</span>
+      </span>
+    </a>
+
+    <button class="fixed-btn-made">
+      <img src="images/stickyLogopng.png" alt="" />
+      Made in Framer
+    </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
